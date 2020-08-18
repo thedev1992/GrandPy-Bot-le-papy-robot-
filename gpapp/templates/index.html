@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>GrandPy Bot by JJ</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+
+  </head>
+
+
+  <body>
+
+    <div class="container">
+
+      <header class="d-flex justify-content-center m-1 align-items-center">
+        <div id ="logo" alt="img" class="text-center">
+          <a href="/">
+            <img src="../static/img/logo.png" class = "img-responsive" alt="Accueil">
+          </a>
+          <h1 class="text-center"> Albert-bot </h1>
+          <h3 class="text-center"> C'est comme avec Albert le genie en moins ! </h3>
+        </div>
+      </header>
+
+      
+      <section>
+
+        <div id="chat_box" class="col-lg-12">
+          <div class="chat_answer col-lg-5">
+          	<p> Pose moi une question, je sais absolument tout, mais tout est relatif </p>
+          </div>
+        </div>
+
+
+        <div class="row" id="chat_writer">
+          <input name="usr_query" id="usr_question" class="form-control col-lg-10"
+                     type="text" size = 48 
+                     placeholder="Si c'est court, concis et facile c'est encore mieux !" autofocus>
+          <button type="submit" class="btn btn-outline-warning" >Poser la question</button>
+        </div>
+
+      </section>
+     
+
+
+      <footer class="row" >
+
+        <p>
+          Rapiécié par Jessy LOPPY Code source disponible <a href="https://github.com/JeesyJackson83/Projet_07"> ici</a>.
+        </p>
+
+      </footer>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMgIhs_f-La3QBapEwe-dy80PHDxU9alk&callback=initMap"
+    async defer></script>
+    <script type="text/javascript" src="../static/js/ajax.js"></script>
+
+  </body>
+
+</html>
